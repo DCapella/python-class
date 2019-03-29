@@ -12,10 +12,10 @@ if a negative argument is passed as initialAge, the constructor should set  to  
 setting age to 0.. In addition, you must write the following instance methods:
 
 > 1. yearPasses() should increase the  instance variable by 1.
-1. amIOld() should perform the following conditional actions:
-  * If < 13, print You are young..
-  * If ≥ 13 and < 18, print You are a teenager..
-  * Otherwise, print You are old..
+> 1. amIOld() should perform the following conditional actions:
+  > * If < 13, print You are young..
+  > * If ≥ 13 and < 18, print You are a teenager..
+  > * Otherwise, print You are old..
   
 ## Template
 
@@ -31,8 +31,10 @@ t = int(input())
   
 ## Solve
 
+#### Define A Problem
+
 > "...if a negative argument is passed as initialAge, the constructor should set  to  and print Age is not valid,
-setting age to 0."
+> setting age to 0."
 
 Pretty straight forward.
 
@@ -56,6 +58,8 @@ def __init__(self,initialAge):
 ...
 ```
 
+#### Define A Problem
+
 > "yearPasses() should increase the  instance variable by 1."
 
 #### Thought Process
@@ -73,10 +77,12 @@ def yearPasses(self):
 ...
 ```
 
+#### Define A Problem
+
 > amIOld() should perform the following conditional actions:
-  * If < 13, print You are young..
-  * If ≥ 13 and < 18, print You are a teenager..
-  * Otherwise, print You are old..
+  > * If < 13, print You are young..
+  > * If ≥ 13 and < 18, print You are a teenager..
+  > * Otherwise, print You are old..
   
 #### Thought Process
 
